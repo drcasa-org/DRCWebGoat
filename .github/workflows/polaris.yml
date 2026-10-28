@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run Polaris Scan
-        uses: synopsys-sig/polaris-github-action@v1
+      - name: Black Duck Security Scan
+        uses: blackduck-inc/black-duck-security-scan@v2
         with:
           polaris_server_url: ${{ secrets.POLARIS_URL }}
           polaris_access_token: ${{ secrets.POLARIS_TOKEN }}
