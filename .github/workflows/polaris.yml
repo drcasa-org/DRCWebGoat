@@ -20,7 +20,7 @@ jobs:
           polaris_server_url: ${{ secrets.POLARIS_URL }}
           polaris_access_token: ${{ secrets.POLARIS_TOKEN }}
 
-          polaris_application_name: DRCWebGoat
+          polaris_application_name: "Casa Interview"
           polaris_project_name: DRCWebGoat
           polaris_branch_name: ${{ github.ref_name }}
 
